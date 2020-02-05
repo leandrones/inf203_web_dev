@@ -1,0 +1,6 @@
+curl --header "Content-Type: application/json" \
+  --request PUT \
+  --data '{
+    "year": "2019",
+    "group": "kkk"}' \
+  http://localhost:8000/reference/JPC:ISTE-17

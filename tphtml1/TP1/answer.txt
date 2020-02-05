@@ -1,0 +1,33 @@
+Nom: Canesso
+Prénom: Angelo
+
+Question 1a:
+
+View Source will only show the original HTML used to create the page initially.
+Inspect Element shows the DOM in its current form, after error correction by the browser.
+
+Question 1b:
+
+To put simply a text in bold, we need to put the text in a <b> or <strong> tag. In our case the text is Telecom Paristech.
+
+Question 1c:
+
+The browser displays « this is a test page » as title of the tab. 
+A HTML file contain two blocs. The first one is a header <head> bloc, which contain information related to the document, like the title. The second one is a <body> bloc that contain the document content.
+
+Question 1e:
+
+
+Question 1f:
+
+Tags like <head> or <div> don’t change anything when they are badly closed. They are optional because it’s implied that a new tag would not be able to be started without closing it. Tags that need to be closed are tags like <b> that encapsulate a text in a given range. If a <b> tag stay opened, all the raining text will be display in bold.
+
+Question 2b:
+
+We needed to specify to which tag or ID the style is being applied. As there is only one image in the HTML file the float:left style is applied to all images with img{}. To specify that the 2nd div is in a border we use #div2{} and to specify the background of div3 we use #div3{}.
+The advantage of using internal CSS is that it is easier to affect the same style to multiple tag.
+The internal CSS style affect only the page, which contain the style. It can be either an advantage or a drawback. In contrary to inline CCS, internal CSS can use classes and IDs, but it will require more time to the browser to load the page.
+
+Question 2c:
+
+To use an external style sheet we need to copy the styles in the header and paste them in another sheet called exercice2c.css. Then we need to link it to the html page thanks to <link>. The advantage of using external styles sheets, is that the styles of multiple documents can be controlled from one unique file. 

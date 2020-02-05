@@ -1,0 +1,23 @@
+
+img{
+	float:left;
+	margin-right:10px;
+}
+#div2{
+	border:solid;
+	border-width:1px;
+	padding: 10px;
+}
+#div3{
+	background-color: #CCCCCC;
+	margin:10px;
+}	
+
+.c3{
+  position: fixed;
+  top: 100px;
+  width: 400px;
+  height: 400px;
+  left: 100px;
+  overflow-y:scroll;
+}

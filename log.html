@@ -1,0 +1,42 @@
+
+starting script:
+npm install
+node server.js 8016 &
+sleep 5
+curl 'http://localhost:9999/grade2?studlab=server&student=dearaujo&port=8016'
+
+log is here: <a target="_blank" href="http://murillo.telecom-paristech.fr/upload/logs/server/dearaujo/log.log">log.log</a>
+source code is here: <a target="_blank" href="http://murillo.telecom-paristech.fr/upload/server/dearaujo/expanded/server.js">server.js</a>
+note++ 1: server running, good response
+requested: http://localhost:8016/files/server.js<br>
+http status code not ok: 404<br>
+gradeserver.grade req2 (url='/files/server.js'): StatusCodeError: 404 - "404 Not Found\n"
+requested: http://localhost:8016/files/im.jpg<br>
+http status code not ok: 404<br>
+gradeserver.grade req3 (url='/files/img.jpg'): StatusCodeError: 404 - "404 Not Found\n"
+requested: http://localhost:8016/files/style.css<br>
+http status code not ok: 404<br>
+gradeserver.grade req4 (url='/files/style.css'): StatusCodeError: 404 - "404 Not Found\n"
+note++ 5: does not serve when .. is used
+note++ 6: process names with accents
+note++ 7: hello OK with tags
+note++ 8: hello2 filters tags
+note++ 9: hello2 filters scripts
+requested: http://localhost:8016/show<br>
+http status code not ok: 404<br>
+gradeserver.grade req10 (url='/show'): StatusCodeError: 404 - "404 Not Found\n"
+note++ 11: hello2 keeps previous names
+requested: http://localhost:8016/files/storage.json<br>
+http status code not ok: 404<br>
+gradeserver.grade req12 (url='/files/storage.json'): StatusCodeError: 404 - "404 Not Found\n"
+requested: http://localhost:8016/add?title=t1&value=40&color=blue<br>
+http status code not ok: 404<br>
+gradeserver.grade req13 (url='/add?title=t1&value=40&color=blue'): StatusCodeError: 404 - "404 Not Found\n"
+requested: http://localhost:8016/remove?index=0<br>
+http status code not ok: 404<br>
+gradeserver.grade req14 (url='/remove?index=0'): StatusCodeError: 404 - "404 Not Found\n"
+Error step 4 SyntaxError: Unexpected token N in JSON at position 4
+<br>Grade: 7 for student dearaujo
+<br><div id='divdearaujo'>To be manually added:<ul><li>1 for a working menu bar</li><li>3 for a visually correct SVG piechart (other parameters already checked)</li><li>1 for a locally computed piechart</li></ul><br>
+<iframe src='https://murillo.telecom-paristech.fr/redir/8016/files/client/test2.html' style='width: 70%;height: 50%;'></iframe><br></div>
+<a href='/killGrader?student=dearaujo&lab=server&port=8016'>Return</a>

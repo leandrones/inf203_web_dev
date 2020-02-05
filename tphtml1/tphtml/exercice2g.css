@@ -1,0 +1,31 @@
+img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#div2{
+    border-style:solid;
+    border-width: 1px;
+    padding: 10px;
+}
+#div3{
+    background-color: #CCCCCC;
+    margin: 10px;
+}
+div.popup{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    width: 400px;
+    height: 400px;
+    /*display: block;*/
+    overflow-y: scroll;
+}
+
+div.popup:active{
+    visibility: hidden;
+}
+
+div.popup:hover{
+    color:red;
+}

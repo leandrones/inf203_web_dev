@@ -1,0 +1,46 @@
+Nom: NASCIMENTO GONCALVES DE ARAUJO
+PrÃ©nom: Leandro
+
+Question 1a:
+We can see that in the Inspector Element we have got some 
+more options concerning the manipulation of the page. Also,
+we can see the basic tags <html> and <body>, which are not 
+displayed on the source code page.
+
+Question 1b:
+We need only use <b> tag.
+
+Question 1c:
+On the top of the tab on the browser, the title is 
+displayed.
+The html basic structure is a composition of a <html> root 
+node, followed by the <head> node, that possesses metadata such
+as the title parameter, but also the script or style tags.
+Then we have the body node that will show the content viewed by the
+user inside the web page itself.
+Writing the html head and body are optional in a html file.
+
+Question 1d:
+
+
+Question 1e:
+
+Question 1f:
+Not closing the h1 tag makes all the text as a 
+header,big and bold. The <a> tag inside nav does not 
+need to be closed and it does not cause visualization issues
+
+Question 2a:
+
+
+Question 2b:
+You have to specify an id or a class for every div tag.
+The disadvantege is that it is worse if you want to personalize
+each element differently.
+But the advantage is that it is much easier for code refactoring,
+since you have all the style settings on the same place.
+
+Question 2c:
+We have to add a link tag on the head tag with the css file path.
+The advantage is also to let the code more organized and not let
+the files get too big.

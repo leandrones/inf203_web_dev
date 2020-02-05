@@ -1,0 +1,18 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"key":"imaginary",
+  "title": "Les supports de la passion",
+    "publisher": "ISTE Editions",
+    "address": "London, UK",
+    "year": "2017",
+    "pages": "535",
+    "lang": "fr",
+    "authors": [
+      "J.-P. Crettez"
+    ],
+    "category": "book",
+    "state": "published",
+    "project": "tii",
+    "dept": "tsi",
+    "group": "tii"}' \
+  http://localhost:8000/reference/
